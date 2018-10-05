@@ -29,3 +29,9 @@ To publish a dev version of an orb execute:
 ```bash
 circleci orb publish openshift/orb.yml snowdrop/openshift@dev:master --token=xxxxx
 ```
+
+To publish a prod version of an orb execute:
+
+```bash
+circleci orb publish openshift/orb.yml snowdrop/openshift@0.1.0 --token=xxxxx
+```
