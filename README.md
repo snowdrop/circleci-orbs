@@ -32,6 +32,6 @@ circleci orb publish openshift/orb.yml snowdrop/openshift@dev:master --token=xxx
 
 To publish a prod version of an orb execute:
 
-```bash
-circleci orb publish openshift/orb.yml snowdrop/openshift@0.1.0 --token=xxxxx
+```
+./release.sh <version> <CircleCI API token> <GitHub API token>
 ```
